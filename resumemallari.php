@@ -142,7 +142,7 @@ class Jan Henley Mallari extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               'Languages:',
-              style: TextStyle(
+              style: TextStyle( 
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
               ),

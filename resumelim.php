@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CrissPage extends StatelessWidget {
+class CustomProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Criss Page'),
+        title: Text('Profile'),
       ),
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20.0),
@@ -15,15 +15,18 @@ class CrissPage extends StatelessWidget {
             Center(
               child: CircleAvatar(
                 radius: 100,
-                backgroundImage: NetworkImage(
-                  'https://scontent.fcrk1-3.fna.fbcdn.net/v/t39.30808-1/313912059_2288130334681319_8225126656902008897_n.jpg?stp=c1.2.198.199a_dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeFLpJ64cvRy5BZqtcrAfasIrGa6KsKJpA6sZroqwomkDqDkhPhq33P5xF_vLUigpv55-QJ9qBiKTEeQAIqlxzlt&_nc_ohc=rqSBM1Hd-joAX_GJfoY&_nc_ht=scontent.fcrk1-3.fna&oh=00_AfDwOewdIG2_jFEzb8VSRCCFesv-MRv9Q9988tvD-szISQ&oe=65EA6A54', // Replace with your image link
+                backgroundColor: Colors.blue, // Placeholder color
+                child: Icon(
+                  Icons.person, // Placeholder icon
+                  size: 100,
+                  color: Colors.white,
                 ),
               ),
             ),
             SizedBox(height: 20),
             Center(
               child: Text(
-                'John Doe',
+                'Jane Smith',
                 style: TextStyle(
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
@@ -33,7 +36,7 @@ class CrissPage extends StatelessWidget {
             SizedBox(height: 10.0),
             Center(
               child: Text(
-                'Software Developer',
+                'Graphic Designer',
                 style: TextStyle(
                   fontSize: 18.0,
                   fontStyle: FontStyle.italic,
@@ -50,7 +53,7 @@ class CrissPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Experienced software developer with expertise in Flutter, Dart, and other related technologies. Passionate about creating clean, efficient, and maintainable code. Strong problem-solving skills and ability to work in a team environment.',
+              'Creative graphic designer with a passion for clean and impactful designs. Experienced in both print and digital media. Proficient in Adobe Creative Suite and other design software.',
               style: TextStyle(
                 fontSize: 16.0,
               ),
@@ -65,27 +68,19 @@ class CrissPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              '- Flutter',
+              '- Graphic Design',
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              '- Dart',
+              '- Adobe Creative Suite',
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              '- Mobile App Development',
+              '- UI/UX Design',
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              '- Object-Oriented Programming',
-              style: TextStyle(fontSize: 16.0),
-            ),
-            Text(
-              '- UI/UX Design Principles',
-              style: TextStyle(fontSize: 16.0),
-            ),
-            Text(
-              '- Agile Methodologies',
+              '- Print Design',
               style: TextStyle(fontSize: 16.0),
             ),
             SizedBox(height: 20),
@@ -98,15 +93,15 @@ class CrissPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Software Developer at XYZ Inc. (2018 - Present)',
+              'Graphic Designer at ABC Design Studio (2017 - Present)',
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              '- Developed and maintained mobile applications using Flutter and Dart.',
+              '- Designed marketing materials for various clients.',
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              '- Collaborated with cross-functional teams to deliver high-quality software products.',
+              '- Collaborated with clients to understand their design needs and preferences.',
               style: TextStyle(fontSize: 16.0),
             ),
             SizedBox(height: 20),
@@ -119,11 +114,11 @@ class CrissPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              'Bachelor of Science in Computer Science',
+              'Bachelor of Fine Arts in Graphic Design',
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              'ABC University (2014 - 2018)',
+              'XYZ University (2013 - 2017)',
               style: TextStyle(fontSize: 16.0),
             ),
             SizedBox(height: 20),
@@ -136,24 +131,11 @@ class CrissPage extends StatelessWidget {
             ),
             SizedBox(height: 10),
             Text(
-              '- Developed an e-commerce mobile app using Flutter for ABC Company.',
+              '- Designed branding materials for a startup company.',
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              '- Created a chat application using Firebase and Flutter for personal project.',
-              style: TextStyle(fontSize: 16.0),
-            ),
-            SizedBox(height: 20),
-            Text(
-              'Certifications:',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 10),
-            Text(
-              '- Flutter Certified Developer',
+              '- Created user interfaces for mobile apps.',
               style: TextStyle(fontSize: 16.0),
             ),
             SizedBox(height: 20),
@@ -170,7 +152,7 @@ class CrissPage extends StatelessWidget {
               style: TextStyle(fontSize: 16.0),
             ),
             Text(
-              '- Spanish (Intermediate)',
+              '- French (Intermediate)',
               style: TextStyle(fontSize: 16.0),
             ),
           ],

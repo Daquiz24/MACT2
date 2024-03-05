@@ -151,7 +151,7 @@ class Jan Henley Mallari extends StatelessWidget {
             Text(
               '- English (Fluent)',
               style: TextStyle(fontSize: 16.0),
-            ),
+            ),  
             Text(
               '- Spanish (Intermediate)',
               style: TextStyle(fontSize: 16.0),
@@ -161,4 +161,5 @@ class Jan Henley Mallari extends StatelessWidget {
       ),
     );
   }
+  
 }
